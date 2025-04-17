@@ -8,8 +8,8 @@ public class FullNameParser {
     }
     public static void setFullName(){
         System.out.println("Please enter your full name");
-        String name = fullnames.nextLine();
-        String[] name2 = name.split(" ");
+        String name = fullnames.nextLine().trim();
+        String[] name2 = name.split("\\s+");
 
         String firstName = name2[0];
         String secondName = "none";
