@@ -71,8 +71,8 @@ public class pauseExercise4 {
         return formula;
     }
     public static void displayTemp(){
-       String want = "";
 
+        String want ="";
         do {
             int formula2 = asking();
             double temp2 = tem();
@@ -92,7 +92,7 @@ public class pauseExercise4 {
 
             System.out.println("\nDo you want to do it again.(y/n)");
             pause5.nextLine();
-             want = pause5.nextLine();
+              want = pause5.nextLine();
         } while(want.equalsIgnoreCase("y"));
 
         System.out.println("Thank you for using the app!");
